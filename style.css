@@ -1,0 +1,19 @@
+/* General Resets */
+body { font-family: sans-serif; margin: 0; padding: 0; }
+
+/* Navbar */
+.navbar { display: flex; justify-content: space-between; padding: 20px; background: #003366; color: white; align-items: center; }
+.btn-cta { background: #ffcc00; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold; border-radius: 5px; }
+
+/* Hero Section */
+.hero { text-align: center; padding: 100px 20px; background: #f4f4f4; }
+.btn-main { background: #d32f2f; color: white; padding: 15px 30px; border: none; font-size: 1.2rem; cursor: pointer; }
+
+/* Service Grid (Responsive) */
+.services-grid { display: flex; gap: 20px; padding: 40px; justify-content: center; }
+.card { border: 1px solid #ddd; padding: 20px; flex: 1; text-align: center; }
+
+/* Mobile View: Stack columns */
+@media (max-width: 768px) {
+    .services-grid { flex-direction: column; }
+}
